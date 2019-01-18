@@ -27,3 +27,5 @@ eurekaServer:
   host1:
     hostName: 119.27.175.187
     port: 8761
+env:
+  dev
