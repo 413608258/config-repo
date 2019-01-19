@@ -17,15 +17,16 @@ spring:
     port: 6379
     password:
 
+eurekaServer:
+  host1:
+    hostName: 119.27.175.187
+    port: 8761
+
 eureka:
   client:
     serviceUrl:
 #      defaultZone: http://localhost:8761/eureka/
       defaultZone: http://${eurekaServer.host1.hostName}:${eurekaServer.host1.port}/eureka/
-
-eurekaServer:
-  host1:
-    hostName: 119.27.175.187
-    port: 8761
+      
 env:
   dev
