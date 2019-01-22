@@ -4,5 +4,5 @@ spring:
   application:
     name: demo
 user:
-  name: demo7
+  name: demo77
   pass: 123456
